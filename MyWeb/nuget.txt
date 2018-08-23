@@ -1,0 +1,7 @@
+﻿install-package rupeng.HystrixCore -version 1.0.2
+
+Install-Package Polly -Version 6.0.1
+asp.net core中的依赖注入
+Install-Package AspectCore.Extensions.DependencyInjection
+
+Install-package ocelet

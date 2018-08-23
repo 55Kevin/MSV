@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\MsgService.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="0.7.0" />
+    <PackageReference Include="consul" Version="0.7.2.4" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="ocelot" Version="7.0.6" />
+    <PackageReference Include="polly" Version="6.0.1" />
+    <PackageReference Include="rupeng.hystrixcore" Version="1.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.5.0" />
+  </ItemGroup>
+
+</Project>
